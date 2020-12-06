@@ -423,8 +423,10 @@ function writeUpcomingBanner(get, write) {
 
         <div class="paragraph text-center">
         <div class="flex-column">
+        <h1 class="row-control space">Next launch</h1>
         <p class="row-control space">${name}</p>
-        <p class="row-control space">${d}.${m}.${y} ${hour}:${min}:00</p>
+        <p class="row-control space">${d}.${m}.${y}</p>
+        <p class="row-control space">${hour}:${min}</p>
         ${tweet}
         <a href="launch.html?q=${id}&w=${rocket}" class="link0 banner-link"><p>Read more</p></a>     
         </div>
