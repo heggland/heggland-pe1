@@ -423,7 +423,6 @@ function writeUpcomingBanner(get, write) {
 
         <div class="paragraph text-center">
         <div class="flex-column">
-        <h1 class="row-control space">Next launch</h1>
         <p class="row-control space">${name}</p>
         <p class="row-control space">${d}.${m}.${y}</p>
         <p class="row-control space">${hour}:${min}</p>
