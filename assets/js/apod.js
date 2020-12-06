@@ -1,0 +1,1 @@
+fetchApi(getUrl("apod"), "writeNasa");
